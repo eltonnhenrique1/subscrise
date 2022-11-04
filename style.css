@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: "Sarala", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+button {
+  cursor: pointer;
+}
+body {
+  background: #f7f5fb;
+}
+.container {
+  width: 830px;
+  height: 520px;
+
+  background: #ffffff;
+  border: 10px solid #ffffff;
+  border-radius: 10px;
+  display: flex;
+  gap: 49px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 166px;
+  
+
+
+
+}
+.image {
+  width: 365px;
+  height: 500px;
+  background: #f7f5fb;
+  border-radius: 10px;
+  position: relative;
+}
+.imagem-1 {
+  position: absolute;
+  bottom: -55px;
+  left: 47px;
+  height: 391px;
+  width: 306px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.titulo {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  margin-bottom: 47px;
+}
+.titulo h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+
+  color: #000000;
+}
+
+.titulo p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #908f8f;
+}
+.botao {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.botao input {
+  width: 395px;
+  height: 50px;
+
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+.botao button {
+  width: 395px;
+  height: 50px;
+
+  background: #1a54ff;
+  border-radius: 10px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
